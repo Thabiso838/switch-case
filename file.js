@@ -35,3 +35,15 @@ switch (new Date().getDay()) {
     text = "Looking forward to the Weekend";
 }
 console.log(text)
+
+switch (new Date().getDay()) {
+  default:
+    text = "Looking forward to the Weekend";
+    break;
+  case 6:
+    text = "Today is Saturday";
+    break;
+  case 0:
+    text = "Today is Sunday";
+}
+console.log(text)
